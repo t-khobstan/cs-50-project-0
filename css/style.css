@@ -1,0 +1,36 @@
+ 
+ /* font*/
+
+ @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Arvo|Indie+Flower&display=swap');
+
+ /*----------------- font-family: 'Indie Flower', cursive; font-family: 'Fjalla One', sans-serif; font-family: 'Arvo', serif;*/
+
+
+ul.navbar-nav.align-items-center  li:hover{
+    background-color:brown ;
+} 
+.dropdown-menu a:hover{
+    background-color:brown ;
+}
+.myshadow{
+    box-shadow: 1px 10px 15px 1px rgba(1,1,1,0.5);
+}
+
+@media screen and (max-width:500px) and (min-width:200px){
+    #myName{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .textsmaller{
+      font-size: 32pt;
+    }
+    div>h2{
+        font-size: 16pt;
+        font-weight: bold;
+        text-decoration-line: underline;
+    }
+
+}
+
+
+
