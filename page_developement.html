@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="title icon" type="images/jpg" href="images/p-web.jpg">
+  <!--link file bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--link file my styme-->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Developement</title>
+  
+</head>
+
+<body>
+<!--css style***************************
+
+*********************************-->
+  <style>
+    html{
+      height: 100%;
+    }
+    body{
+      display: flex;
+      flex-direction: column; 
+      height: 100vh;/*for footer always be in bottom   */
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+    main{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      flex-grow: 1;  /*for footer always be in bottom   */
+      flex-shrink: 0;/*for footer always be in bottom   */
+      flex-basis: auto;/*for footer always be in bottom   */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    }
+    
+    footer{
+      height: 15%;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    p{
+      text-align: justify;
+    }
+    .copyR{ 
+      float: right;
+      margin: auto;  
+    }
+    
+  </style>
+<!--css style**************************************************************************************************************
+
+*********************************-->
+
+<main >
+  
+  <!--navigation bare------------------------------------------------------------------------------------------------->
+  <div class="sticky-top gldiv">
+    <nav class=" navbar navbar-expand-md navbar-dark bg-dark" >
+      <button type="button" class=" ml-auto navbar-toggler  " data-toggle="collapse" data-target="#nav"><span
+          class="navbar-toggler-icon navbar-light"></span></button>
+      <div class="collapse navbar-collapse justify-content-center" id="nav">
+        <ul class="navbar-nav text-center ">
+          <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3 " href="index.html">Home</a> </li>
+          <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="index.html#section-project">Skills</a>
+          </li>
+          <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#section-project">Projects</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a
+              class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" href="#"
+              data-toggle="dropdown"   >Contact us </a>
+            <div class="dropdown-menu  bg-dark  text-center  " >
+              <a target="_blank" class="dropdown-item text-light" href="https://www.facebook.com">Facebook</a>
+              <a target="_blank" class="dropdown-item text-light" href="https://github.com/">Github</a>
+              <a target="_blank" class="dropdown-item text-light" href="https://aboutme.google.com/u/0/?referer=gplus">google +</a>
+              <a class="dropdown-item text-light" href="#section-contactUs">Contact form</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--End navigation bare------------------------------------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------------------------------------------------->
+
+  
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h1>Developement</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus, doloremque hic nostrum pariatur magni voluptatem ratione! Magni inventore quam temporibus ab officia quisquam officiis! Veniam nesciunt fuga sit voluptatem.
+          Tenetur iure,uas voluptas doloribus fuga, laborum, aspernatur architecto saepe ullam tempora accusantium totam non optio sunt temporibus error dolorem? Sint accusantium omnis vel.
+          Laborum aperiam magni voluptatibus tempora sed suscipit iste quisquam est dolorum ullam ducimus ad sint, beatae distinctio porro, tenetur unde quibusdam! Quod voluptates odit harum! A ex iure repudiandae eum.
+          Beatae voluptatum odio accusamus culpa consequuntur sint atque sunt! Unde voluptas et enim numquam hic minima facilis. Beatae temporibus minus dignissimos at totam error? Amet harum dolorem quam molestiae magnam!
+          Consectetur, nam! Doloremque obcaecati voluptatem blanditiis atque nesciunt aliquam saepe cum amet repudiandae, nisi illo ab distinctio, commodi itaque necessitatibus ad rem pariatur provident ex. Eaque voluptates repellendus omnis sunt.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+<!--footer ********************************************************************************************************************************
+  ***************************************************************************************************************************************** -->
+  <footer class="bg-dark p-3 " >
+    <div class="container p-2 ">
+      <div class="row">
+        <div class="col " >
+         <a href="#"><i class="fab fa-facebook fa-3x text-primary m-2"></i> </a>   
+         
+        <a href="#"><i class="fab fa-github fa-3x text-light m-2"></i></a> 
+         
+        <a href="#"><i class="fab fa-google-plus fa-3x text-danger m-2"></i></a> 
+          <div class="copyR" >
+              <span>&copy;toufik khobstan</span>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- end footer------------------------------------------------------------
+  ********************************************************************************************************************************************  -->
+
+  <!-- script *********************************************************************************************************************************
+  ****************************************************************************************************************************************** -->
+
+  <script src="https://kit.fontawesome.com/11a22ade10.js"></script>
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

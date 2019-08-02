@@ -1,26 +1,55 @@
  
  /* font*/
 
- @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Arvo|Indie+Flower&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Arvo|Courgette|Antic Didone|Indie+Flower&display=swap');
 
- /*----------------- font-family: 'Indie Flower', cursive; font-family: 'Fjalla One', sans-serif; font-family: 'Arvo', serif;*/
+ /*----------------- font-family: 'Indie Flower', cursive; font-family: 'Fjalla One', sans-serif; font-family: 'Arvo', serif;
+ font-family: 'Courgette', cursive; font-family: "Antic Didone", cursive; */
 
+/*select navbare link and change backgrand in hover and visited */
+ .navbar-nav.text-center li>a:hover{
+    background-color:brown ; 
+}
 
-ul.navbar-nav.align-items-center  li:hover{
-    background-color:brown ;
-} 
-.dropdown-menu a:hover{
+.dropdown-menu a:visited{
     background-color:brown ;
 }
+
+/*boxshadow of personnel picture*/
 .myshadow{
     box-shadow: 1px 10px 15px 1px rgba(1,1,1,0.5);
 }
+/* */
+.Tex-presentation{
+    font-family: "Courgette", cursive;
+    font-size: 18pt;
+    line-height:2.2;
+    text-indent:1em;
+}
 
+
+ #myName{
+        font-family: "Antic Didone", cursive; 
+        font-weight: bold;
+       
+    }
+
+/*use media query because first name  under picture 
+and h1 of header and h2 look very big in small screen*/
 @media screen and (max-width:500px) and (min-width:200px){
     #myName{
         font-size: 12px;
         font-weight: bold;
+       
     }
+    .Tex-presentation{
+        font-size: 16pt;
+        line-height:1.5;
+        text-indent:0.5em;
+        
+    }
+    
+    
     .textsmaller{
       font-size: 32pt;
     }
@@ -31,6 +60,3 @@ ul.navbar-nav.align-items-center  li:hover{
     }
 
 }
-
-
-

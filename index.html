@@ -5,55 +5,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="title icon" type="images/jpg" href="images/p-web.jpg">
   <!--link file bootstrap-->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!--link file my styme-->
   <link rel="stylesheet" href="css/style.css">
   
-  <link rel="title icon" type="images/jpg" href="images/p-web.jpg">
+  
   <title>my project 0 c50 web</title>
 </head>
 
-<body>
+<body >
   <!--navigation bare------------------------------------------------------------------------------------------------->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark  sticky-top ">
-    <a class="navbar-brand" href="#">
-      <li class="fas fa-dragon fa-lg text-success"></li>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-      <ul class="navbar-nav align-items-center ">
-        <li class="nav-item active">
-          <a class="nav-link font-weight-bolde  text-uppercase text-light px-4 " href="#">Home <span
-              class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bolde  text-uppercase text-light px-4" href="#section-skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class=" nav-link font-weight-bolde  text-uppercase text-light px-4" href="#section-projects">Projects</a>
-        </li>
-
-         <li class="nav-item dropdown" data-toggle="dropdown"> 
-          <a class="nav-link font-weight-bolde  text-uppercase text-light px-4 dropdown-toggle">Contact us</a>
-          <div class="dropdown-menu bg-dark text-center">
-            
-            <a id="mydropdown" href="#" class="dropdown-item text-light ">Facebook</a>
-            <a href="#" class="dropdown-item text-light">gitHub</a>
-            <a href="#" class="dropdown-item text-light">Google +</a>
-            <a id="mydropdown" href="#section-contactUs" class="dropdown-item text-light ">Contact</a>
-
-          </div>
-        </li>
-        </li>
-      </ul>
-    </div>
-    
-  </nav>
+  <div class="sticky-top">
+    <nav class=" navbar navbar-expand-md navbar-dark bg-dark" >
+      <button type="button" class=" ml-auto navbar-toggler  " data-toggle="collapse" data-target="#nav"><span
+          class="navbar-toggler-icon navbar-light"></span></button>
+      <div class="collapse navbar-collapse justify-content-center" id="nav">
+        <ul class="navbar-nav text-center ">
+          <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3 " href="#">Home</a> </li>
+          <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#section-skills">Skills</a>
+          </li>
+          <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#section-project">Projects</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a
+              class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" href="#"
+              data-toggle="dropdown"   >Contact us </a>
+            <div class="dropdown-menu  bg-dark  text-center  " >
+              <a target="_blank" class="dropdown-item text-light" href="https://www.facebook.com">Facebook</a>
+              <a target="_blank" class="dropdown-item text-light" href="https://github.com/">Github</a>
+              <a target="_blank" class="dropdown-item text-light" href="https://aboutme.google.com/u/0/?referer=gplus">google +</a>
+              <a class="dropdown-item text-light" href="#section-contactUs">Contact form</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <!--End navigation bare------------------------------------------------------------------------------------------------------------------
   --------------------------------------------------------------------------------------------------------------------------------------->
@@ -73,17 +62,16 @@
         <div class="col-lg-9 col-sm-9 col-9 mx-auto">
           <h1 class="pb-2 text-center " style="font-family:'Indie Flower', cursive; font-size: 4vw">Web &amp Development
           </h1>
-          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda modi nobis dolorem
-            inventore? Officia, repudiandae consequatur. Id culpa non quam, rerum, laborum vitae doloremque, ratione
-            reprehenderit cupiditate ipsa ut pariatur?
-            Saepe labore</p>
+          <p class="h5 lead font-weight-normal Tex-presentation" > <span>HELLO! </span> <br>
+
+            My name is Tewfik KHOBSTAN, I love programming languages and web design I am have been always excited to learn new things and have new challenges, I like work in groups and give the best of me.</p>
 
         </div>
       </div>
 
 
     </div>
-    </div>
+  
 
   </header>
   <!-- end header -------------------------------------------------------------------------------------------------------------------------------
@@ -92,7 +80,7 @@
   <main>
     <!--skilles Section-------------------------------------------------------------------------------------------------------------- -->
     <!--title  -->
-    <section style="background:linear-gradient(145deg,green,rgba(173, 150, 150));" id="section-skills">
+    <section style="background:linear-gradient(145deg,green,rgba(173, 150, 150));" id="section-skills" >
       <div class="container pt-5 pb-2">
         <div class="row text-center">
           <div class="col bg-gradient-success">
@@ -113,7 +101,7 @@
             <p class="text-justify p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto porro nam dolor,
               facilis commodi ipsum tempora earum fugiat adipisci amet et, unde quibusdam tempore quo consequatur ipsa
               consectetur veritatis? Repudiandae.</p>
-            <a href="#" class="btn btn-outline-warning">learn more >></a>
+            <a href="page_developement.html" class="btn btn-outline-warning">learn more >></a>
           </div><!-- end skill dev-->
           <div class="col-lg-4 mb-5">
             <!--skill design-->
@@ -122,7 +110,7 @@
             <p class="text-justify p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto porro nam dolor,
               facilis commodi ipsum tempora earum fugiat adipisci amet et, unde quibusdam tempore quo consequatur ipsa
               consectetur veritatis? Repudiandae.</p>
-            <a href="#" class="btn btn-outline-warning">learn more >></a>
+            <a href="page_design.html" class="btn btn-outline-warning">learn more >></a>
           </div>
           <!--end skill  design-->
           <div class="col-lg-4 mb-5">
@@ -132,7 +120,7 @@
             <p class="text-justify p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto porro nam dolor,
               facilis commodi ipsum tempora earum fugiat adipisci amet et, unde quibusdam tempore quo consequatur ipsa
               consectetur veritauditis? Repandae.</p>
-            <a href="#" class="btn btn-outline-warning">learn more >></a>
+            <a href="page_creativity.html" class="btn btn-outline-warning">learn more >></a>
           </div>
           <!--end skill crativity-->
         </div>
@@ -142,7 +130,7 @@
     ------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--project section----------------------------------------------------------------------------------------------------------------- -->
     <!-- title project  -->
-    <section class="bg-light p-5" id="section-projects">
+    <section class="bg-light p-5" id="section-project">
       <div class="container py-5 ">
         <div class="row text-center">
           <div class="col-sm-12" >
@@ -162,7 +150,7 @@
             <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsa tempora cum
               porro quisquam adipisci ratione repudiandae amet hic excepturi saepe voluptatem tempore neque, deserunt
               dolor placeat modi ex inventore?</p>
-            <a href="#" class=" align-self-end  btn btn-outline-warning ">Read more >></a>
+            <a href="page_project.html" class=" align-self-end  btn btn-outline-warning ">Read more >></a>
           </div>
           <!--end of Project one-->
 
@@ -173,7 +161,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsa tempora cum porro quisquam
               adipisci ratione repudiandae amet hic excepturi saepe voluptatem tempore neque, deserunt dolor placeat
               modi ex inventore?</p>
-            <a href="#" class=" align-self-end  btn btn-outline-warning ">Read more >></a>
+            <a href="page_project.html" class=" align-self-end  btn btn-outline-warning ">Read more >></a>
 
           </div>
           <!--end of project TWO-->
@@ -185,7 +173,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsa tempora cum porro quisquam
               adipisci ratione repudiandae amet hic excepturi saepe voluptatem tempore neque, deserunt dolor placeat
               modi ex inventore?</p>
-            <a href="#" class=" align-self-end  btn btn-outline-warning ">Read more >></a>
+            <a href="page_project.html" class=" align-self-end  btn btn-outline-warning ">Read more >></a>
 
           </div>
           <!--end of project three-->
@@ -286,7 +274,7 @@
   </main>
   <!--footer ********************************************************************************************************************************
   ***************************************************************************************************************************************** -->
-  <footer class="bg-dark p-5" id="section-footer">
+  <footer class="bg-dark p-5 " >
     <div class="container">
       <div class="row">
         <div class="col-12">
