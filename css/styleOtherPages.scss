@@ -1,0 +1,89 @@
+$c-gray: rgb(83, 78, 78);
+$c-Sred:rgb(112, 87, 87);
+
+@mixin marginAuto() {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+html{
+    height: 100%;
+  }
+  body{
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;/*for footer always be in bottom   */
+    @include marginAuto();
+   
+  
+  }
+
+.navbar-nav{
+
+    li{
+        &:hover{
+            background-color: $c-Sred;
+        }
+    }
+    a{
+        &:visited{
+            background-color: $c-Sred;  
+        }
+    }
+}
+  main{
+    width: 80%;
+    @include marginAuto();
+    flex-grow: 1;  /*for footer always be in bottom   */
+    flex-shrink: 0;/*for footer always be in bottom   */
+    flex-basis: auto;/*for footer always be in bottom   */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    
+    h1,h3{
+        color:$c-Sred;
+      }
+    p{
+        text-align: justify;
+        color: $c-gray;
+    }
+    img{
+      max-width: 100%;
+    }
+    ol{
+      line-height: 2em;
+      font-size: 24px;
+      color: $c-gray;
+    }
+  }
+  
+  footer{
+    height: auto;
+    width: 80%;
+    @include marginAuto();
+    
+  }
+ 
+  .copyR{ 
+    float: right;
+    margin: auto;  
+  }
+  table{
+    border: 1px solid black;
+     border-collapse: collapse;
+     width: 80%;
+     text-align: center;
+     tr ,th,td{
+      border: 1px solid black;
+     }
+     tr{
+       &:nth-child(odd){
+        background-color: rgb(181, 192, 192)
+       }
+     }
+   }
+   
+   
+    
+ 

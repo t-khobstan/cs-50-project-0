@@ -7,7 +7,7 @@
  font-family: 'Courgette', cursive; font-family: "Antic Didone", cursive; */
 
 /*select navbare link and change backgrand in hover and visited */
- .navbar-nav.text-center li>a:hover{
+ .navbar-nav li>a:hover{
     background-color:brown ; 
 }
 
@@ -60,3 +60,4 @@ and h1 of header and h2 look very big in small screen*/
     }
 
 }
+
